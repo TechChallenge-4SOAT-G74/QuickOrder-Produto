@@ -1,4 +1,4 @@
-﻿namespace QuickOrderProduto.Core.Domain.Adapters
+﻿namespace QuickOrderProduto.Domain
 {
     public interface IBaseRepository
     {

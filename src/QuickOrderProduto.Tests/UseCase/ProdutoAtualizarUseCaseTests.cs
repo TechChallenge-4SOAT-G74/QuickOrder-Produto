@@ -1,8 +1,8 @@
 ﻿using Moq;
 using QuickOrderProduto.Application.Dtos;
 using QuickOrderProduto.Core.Application.UseCases.Produto;
-using QuickOrderProduto.Core.Domain.Adapters;
-using QuickOrderProduto.Core.Domain.Entities;
+using QuickOrderProduto.Domain;
+using QuickOrderProduto.Domain.Entities;
 
 namespace QuickOrderProduto.Tests.UseCase
 {

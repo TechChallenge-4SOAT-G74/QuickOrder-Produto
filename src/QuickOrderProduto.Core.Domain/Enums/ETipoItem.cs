@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace QuickOrderProduto.Core.Domain.Enums
+namespace QuickOrderProduto.Domain.Enums
 {
     public enum ETipoItem
     {

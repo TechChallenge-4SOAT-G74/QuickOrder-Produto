@@ -1,6 +1,6 @@
-﻿using QuickOrderProduto.Core.Domain.Entities;
+﻿using QuickOrderProduto.Domain.Entities;
 
-namespace QuickOrderProduto.Core.Domain.Adapters
+namespace QuickOrderProduto.Domain
 {
     public interface IProdutoRepository : IBaseRepository, IRepository<Produto>
     {

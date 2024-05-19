@@ -13,7 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\QuickOrderProduto.Adapters.Driven.PostgresDB\QuickOrderProduto.Adapters.Driven.PostgresDB.csproj" />
     <ProjectReference Include="..\QuickOrderProduto.Application\QuickOrderProduto.Application.csproj" />
-    <ProjectReference Include="..\QuickOrderProduto.Core.Domain\QuickOrderProduto.Core.Domain.csproj" />
+    <ProjectReference Include="..\QuickOrderProduto.Core.Domain\QuickOrderProduto.Domain.csproj" />
     <ProjectReference Include="..\QuickOrderProduto.Infra.MQ\QuickOrderProduto.Infra.MQ.csproj" />
   </ItemGroup>
 

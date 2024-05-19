@@ -1,6 +1,7 @@
 ﻿using QuickOrderProduto.Application.Dtos;
+using QuickOrderProduto.Core.Application.UseCases;
 
-namespace QuickOrderProduto.Core.Application.UseCases.Produto.Interfaces
+namespace QuickOrderProduto.Application.UseCases.Produto.Interfaces
 {
     public interface IProdutoExcluirUseCase : IBaseUseCase
     {

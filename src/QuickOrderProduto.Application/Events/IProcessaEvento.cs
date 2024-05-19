@@ -1,4 +1,4 @@
-﻿namespace QuickOrderProduto.Core.Application.Events
+﻿namespace QuickOrderProduto.Application.Events
 {
     public interface IProcessaEvento
     {

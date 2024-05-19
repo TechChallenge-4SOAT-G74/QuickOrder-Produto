@@ -1,8 +1,8 @@
 ﻿using QuickOrder.Core.Application.UseCases.Produto.Interfaces;
 using QuickOrderProduto.Application.Dtos;
-using QuickOrderProduto.Core.Domain.Adapters;
-using QuickOrderProduto.Core.Domain.Enums;
-using ProdutoEntity = QuickOrderProduto.Core.Domain.Entities.Produto;
+using QuickOrderProduto.Domain;
+using QuickOrderProduto.Domain.Enums;
+using ProdutoEntity = QuickOrderProduto.Domain.Entities.Produto;
 
 namespace QuickOrderProduto.Core.Application.UseCases.Produto
 {

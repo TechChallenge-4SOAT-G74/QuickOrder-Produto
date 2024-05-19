@@ -3,7 +3,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace QuickOrderProduto.Adapters.Driven.PostgresDB.Migrations
+namespace QuickOrderProduto.Adapters.PostgresDB.Migrations
 {
     /// <inheritdoc />
     public partial class initial : Migration

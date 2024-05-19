@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using QuickOrderProduto.Core.Domain.Adapters;
-using QuickOrderProduto.Core.Domain.Entities;
+using QuickOrderProduto.Domain;
+using QuickOrderProduto.Domain.Entities;
 using System.Linq.Expressions;
 
-namespace QuickOrder.Adapters.Driven.PostgresDB.Core
+namespace QuickOrder.Adapters.PostgresDB.Core
 {
     public abstract class Repository<T> : IRepository<T>
    where T : EntityBase

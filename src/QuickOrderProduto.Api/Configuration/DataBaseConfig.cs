@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using QuickOrder.Adapters.Driven.PostgresDB.Core;
-using QuickOrderProduto.Core.Domain.Entities;
+using QuickOrder.Adapters.PostgresDB.Core;
+using QuickOrderProduto.Domain.Entities;
 
 namespace QuickOrderProduto.Api.Configuration
 {

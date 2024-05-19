@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using QuickOrder.Core.Application.UseCases.Produto;
 using QuickOrder.Core.Application.UseCases.Produto.Interfaces;
-using QuickOrderProduto.Adapters.Driven.PostgresDB.Repositories;
-using QuickOrderProduto.Core.Application.Events;
+using QuickOrderProduto.Adapters.PostgresDB.Repositories;
+using QuickOrderProduto.Application.Events;
 using QuickOrderProduto.Core.Application.UseCases;
 using QuickOrderProduto.Core.Application.UseCases.Produto;
-using QuickOrderProduto.Core.Application.UseCases.Produto.Interfaces;
-using QuickOrderProduto.Core.Domain.Adapters;
+using QuickOrderProduto.Application.UseCases.Produto.Interfaces;
+using QuickOrderProduto.Domain;
 using QuickOrderProduto.Infra.MQ;
 
 namespace QuickOrderProduto.Core.IoC

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using QuickOrder.Adapters.Driven.PostgresDB.Core;
-using QuickOrderProduto.Core.Domain.Entities;
+using QuickOrder.Adapters.PostgresDB.Core;
+using QuickOrderProduto.Domain.Entities;
 
-namespace QuickOrderProduto.Adapters.Driven.PostgresDB.Mapping
+namespace QuickOrderProduto.Adapters.PostgresDB.Mapping
 {
     public class ItemMap : IEntityMap<Item>
     {

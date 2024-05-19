@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using QuickOrderProduto.Core.Domain.Entities;
+using QuickOrderProduto.Domain.Entities;
 
-namespace QuickOrder.Adapters.Driven.PostgresDB.Core
+namespace QuickOrder.Adapters.PostgresDB.Core
 {
     public interface IEntityMap<TEntity> : IEntityTypeConfiguration<TEntity>
        where TEntity : EntityBase

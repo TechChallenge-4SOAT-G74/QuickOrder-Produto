@@ -1,4 +1,4 @@
-﻿namespace QuickOrderProduto.Core.Domain.ValueObjects
+﻿namespace QuickOrderProduto.Domain.ValueObjects
 {
     public class NomeVo
     {

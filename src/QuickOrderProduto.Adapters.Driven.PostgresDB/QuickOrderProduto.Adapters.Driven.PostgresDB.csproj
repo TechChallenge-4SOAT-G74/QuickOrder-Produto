@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QuickOrderProduto.Core.Domain\QuickOrderProduto.Core.Domain.csproj" />
+    <ProjectReference Include="..\QuickOrderProduto.Core.Domain\QuickOrderProduto.Domain.csproj" />
   </ItemGroup>
 
 </Project>

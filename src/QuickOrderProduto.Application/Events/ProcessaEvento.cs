@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace QuickOrderProduto.Core.Application.Events
+namespace QuickOrderProduto.Application.Events
 {
     public class ProcessaEvento : IProcessaEvento
     {

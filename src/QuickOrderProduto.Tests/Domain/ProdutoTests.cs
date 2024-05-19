@@ -1,4 +1,4 @@
-﻿using QuickOrderProduto.Core.Domain.Entities;
+﻿using QuickOrderProduto.Domain.Entities;
 
 namespace QuickOrderProduto.Tests.Domain
 {

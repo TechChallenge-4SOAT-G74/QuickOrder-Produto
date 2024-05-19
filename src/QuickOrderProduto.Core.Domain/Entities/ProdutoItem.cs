@@ -1,4 +1,6 @@
-﻿namespace QuickOrderProduto.Core.Domain.Entities
+﻿using QuickOrderProduto.Core.Domain;
+
+namespace QuickOrderProduto.Domain.Entities
 {
     public class ProdutoItem : EntityBase, IAggregateRoot
     {

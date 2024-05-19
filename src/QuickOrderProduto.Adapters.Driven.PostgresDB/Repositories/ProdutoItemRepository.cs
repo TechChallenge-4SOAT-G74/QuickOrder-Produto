@@ -1,8 +1,8 @@
-﻿using QuickOrder.Adapters.Driven.PostgresDB.Core;
-using QuickOrderProduto.Core.Domain.Adapters;
-using QuickOrderProduto.Core.Domain.Entities;
+﻿using QuickOrder.Adapters.PostgresDB.Core;
+using QuickOrderProduto.Domain;
+using QuickOrderProduto.Domain.Entities;
 
-namespace QuickOrderProduto.Adapters.Driven.PostgresDB.Repositories
+namespace QuickOrderProduto.Adapters.PostgresDB.Repositories
 {
     public class ProdutoItemRepository : Repository<ProdutoItem>, IProdutoItemRepository
     {

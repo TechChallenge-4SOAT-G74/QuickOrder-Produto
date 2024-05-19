@@ -1,6 +1,6 @@
 ﻿using QuickOrderProduto.Application.Dtos;
-using QuickOrderProduto.Core.Application.UseCases.Produto.Interfaces;
-using QuickOrderProduto.Core.Domain.Adapters;
+using QuickOrderProduto.Application.UseCases.Produto.Interfaces;
+using QuickOrderProduto.Domain;
 
 namespace QuickOrder.Core.Application.UseCases.Produto
 {

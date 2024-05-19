@@ -1,4 +1,4 @@
-﻿namespace QuickOrderProduto.Core.Domain.Entities
+﻿namespace QuickOrderProduto.Domain.Entities
 {
     public class DatabaseSettings
     {

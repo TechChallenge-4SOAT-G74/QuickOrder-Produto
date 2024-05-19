@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
-namespace QuickOrder.Adapters.Driven.PostgresDB.Core
+namespace QuickOrder.Adapters.PostgresDB.Core
 {
     public class ApplicationContext : DbContext
     {

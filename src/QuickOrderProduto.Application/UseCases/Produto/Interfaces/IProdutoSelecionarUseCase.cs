@@ -1,6 +1,6 @@
 ﻿using QuickOrderProduto.Application.Dtos;
 
-namespace QuickOrderProduto.Core.Application.UseCases.Produto.Interfaces
+namespace QuickOrderProduto.Application.UseCases.Produto.Interfaces
 {
     public interface IProdutoSelecionarUseCase
     {
