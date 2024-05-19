@@ -1,4 +1,4 @@
-﻿namespace QuickOrderProduto.Core.Application.Dtos
+﻿namespace QuickOrderProduto.Application.Dtos
 {
     public class ProdutoDto
     {
@@ -9,6 +9,5 @@
         public string? Descricao { get; set; }
         public string? Foto { get; set; }
         public List<ProdutoItemDto>? ProdutoItens { get; set; }
-
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using QuickOrder.Core.Application.UseCases.Produto.Interfaces;
-using QuickOrderProduto.Core.Application.Dtos;
+using QuickOrderProduto.Application.Dtos;
 using QuickOrderProduto.Core.Application.UseCases.Produto.Interfaces;
 
 namespace QuickOrderProduto.Api.Configuration

@@ -1,4 +1,4 @@
-﻿using QuickOrderProduto.Core.Application.Dtos;
+﻿using QuickOrderProduto.Application.Dtos;
 using QuickOrderProduto.Core.Domain.Entities;
 using QuickOrderProduto.Core.Domain.Enums;
 

@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Http;
 
-namespace QuickOrderProduto.Core.Application.Dtos
+namespace QuickOrderProduto.Application.Dtos
 {
     public class ErrorResultDetail
     {

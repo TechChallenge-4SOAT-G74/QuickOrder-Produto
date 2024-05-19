@@ -1,4 +1,4 @@
-﻿namespace QuickOrderProduto.Core.Application.Dtos
+﻿namespace QuickOrderProduto.Application.Dtos
 {
     public class ProdutoItemDto
     {
