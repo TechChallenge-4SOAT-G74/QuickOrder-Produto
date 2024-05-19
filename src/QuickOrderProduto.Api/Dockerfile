@@ -9,11 +9,11 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["QuickOrderProduto.Api/QuickOrderProduto.Api.csproj", "QuickOrderProduto.Api/"]
-COPY ["QuickOrderProduto.Adapters.Driven.PostgresDB/QuickOrderProduto.Adapters.Driven.PostgresDB.csproj", "QuickOrderProduto.Adapters.Driven.PostgresDB/"]
+COPY ["QuickOrderProduto.Adapters.PostgresDB/QuickOrderProduto.Adapters.PostgresDB.csproj", "QuickOrderProduto.Adapters.PostgresDB/"]
 COPY ["QuickOrderProduto.Application/QuickOrderProduto.Application.csproj", "QuickOrderProduto.Application/"]
-COPY ["QuickOrderProduto.Core.Domain/QuickOrderProduto.Core.Domain.csproj", "QuickOrderProduto.Core.Domain/"]
-COPY ["QuickOrderProduto.Infra.MQ/QuickOrderProduto.Core.Domain.csproj", "QuickOrderProduto.Infra.MQ/"]
-COPY ["QuickOrderProduto.Core.IoC/QuickOrderProduto.Core.IoC.csproj", "QuickOrderProduto.Core.IoC/"]
+COPY ["QuickOrderProduto.Domain/QuickOrderProduto.Domain.csproj", "QuickOrderProduto.Domain/"]
+COPY ["QuickOrderProduto.Infra.MQ/QuickOrderProduto.Domain.csproj", "QuickOrderProduto.Infra.MQ/"]
+COPY ["QuickOrderProduto.IoC/QuickOrderProduto.IoC.csproj", "QuickOrderProduto.IoC/"]
 COPY ["QuickOrderProduto.Tests/QuickOrderProduto.Tests.csproj", "QuickOrderProduto.Tests/"]
 RUN dotnet restore "./QuickOrderProduto.Api/QuickOrderProduto.Api.csproj"
 COPY . .

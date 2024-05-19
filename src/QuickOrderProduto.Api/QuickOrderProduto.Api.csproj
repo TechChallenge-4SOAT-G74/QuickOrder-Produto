@@ -16,9 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QuickOrderProduto.Application\QuickOrderProduto.Application.csproj" />
-    <ProjectReference Include="..\QuickOrderProduto.Core.Domain\QuickOrderProduto.Domain.csproj" />
-    <ProjectReference Include="..\QuickOrderProduto.Core.IoC\QuickOrderProduto.IoC.csproj" />
+    <ProjectReference Include="..\QuickOrderProduto.Domain\QuickOrderProduto.Domain.csproj" />
+    <ProjectReference Include="..\QuickOrderProduto.IoC\QuickOrderProduto.IoC.csproj" />
+    <ProjectReference Include="..\QuickOrderProduto.PostgresDB\QuickOrderProduto.PostgresDB.csproj" />
   </ItemGroup>
 
 </Project>
