@@ -12,7 +12,7 @@ COPY ["QuickOrderProduto.Api/QuickOrderProduto.Api.csproj", "QuickOrderProduto.A
 COPY ["QuickOrderProduto.PostgresDB/QuickOrderProduto.PostgresDB.csproj", "QuickOrderProduto.PostgresDB/"]
 COPY ["QuickOrderProduto.Application/QuickOrderProduto.Application.csproj", "QuickOrderProduto.Application/"]
 COPY ["QuickOrderProduto.Domain/QuickOrderProduto.Domain.csproj", "QuickOrderProduto.Domain/"]
-COPY ["QuickOrderProduto.Infra.MQ/QuickOrderProduto.Domain.csproj", "QuickOrderProduto.Infra.MQ/"]
+COPY ["QuickOrderProduto.Infra.MQ/QuickOrderProduto.Infra.MQ.csproj", "QuickOrderProduto.Infra.MQ/"]
 COPY ["QuickOrderProduto.IoC/QuickOrderProduto.IoC.csproj", "QuickOrderProduto.IoC/"]
 COPY ["QuickOrderProduto.Tests/QuickOrderProduto.Tests.csproj", "QuickOrderProduto.Tests/"]
 RUN dotnet restore "./QuickOrderProduto.Api/QuickOrderProduto.Api.csproj"
