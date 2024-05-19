@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  postgres:
+    ports:
+      - '5432:5432'
+    restart: always
+    container_name: quickorder-produto-db-postgresql
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=quickorder-produto-db
+    volumes:
+      - 'quickorder-produto-db-postgresql-volume:/var/lib/postgresql/data'
+    image: 'postgres:latest'
+    networks:
+      - quickorder-produto-db-network
+  quickorderproduto.api:
+    image: ${DOCKER_REGISTRY-}quickorderprodutoapi
+    volumes:
+      - 'api-volume:/var/www/html'
+    build:
+      context: .
+      dockerfile: QuickOrderProduto.Api/Dockerfile
+    ports:
+      - '8090:80'
+      - '5046:443'
+    restart: always 
+    depends_on:
+      - 'postgres'
+    networks:
+      - quickorder-produto-db-network    
+volumes:
+  quickorder-produto-db-postgresql-volume:
+  api-volume:
+
+networks:
+  quickorder-produto-db-network:
+    driver: bridge
