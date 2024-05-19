@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using QuickOrder.Core.Application.UseCases.Produto;
 using QuickOrder.Core.Application.UseCases.Produto.Interfaces;
-using QuickOrderProduto.Adapters.PostgresDB.Repositories;
+using QuickOrderProduto.PostgresDB.Repositories;
 using QuickOrderProduto.Application.Events;
 using QuickOrderProduto.Core.Application.UseCases;
 using QuickOrderProduto.Core.Application.UseCases.Produto;

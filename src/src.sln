@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickOrderProduto.Infra.MQ"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickOrderProduto.Tests", "QuickOrderProduto.Tests\QuickOrderProduto.Tests.csproj", "{989DDFED-082A-46A7-90DD-BE1F6D612FB4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickOrderProduto.Adapters.Driven.PostgresDB", "QuickOrderProduto.Adapters.Driven.PostgresDB\QuickOrderProduto.Adapters.Driven.PostgresDB.csproj", "{61490695-7BB9-4DF6-B37B-3F01292D3194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickOrderProduto.Adapters.PostgresDB", "QuickOrderProduto.Adapters.Driven.PostgresDB\QuickOrderProduto.Adapters.PostgresDB.csproj", "{61490695-7BB9-4DF6-B37B-3F01292D3194}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickOrderProduto.Api", "QuickOrderProduto.Api\QuickOrderProduto.Api.csproj", "{79B416C2-EE24-4B9D-B6F6-08EE922DE84C}"
 EndProject

@@ -2,11 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
-using QuickOrder.Adapters.PostgresDB.Core;
+using QuickOrder.PostgresDB.Core;
 
 #nullable disable
 
-namespace QuickOrderProduto.Adapters.PostgresDB.Migrations
+namespace QuickOrderProduto.PostgresDB.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
     [Migration("20240423143939_dados-iniciais")]
