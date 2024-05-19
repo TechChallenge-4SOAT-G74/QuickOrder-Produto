@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["QuickOrderProduto.Api/QuickOrderProduto.Api.csproj", "QuickOrderProduto.Api/"]
-COPY ["QuickOrderProduto.Adapters.PostgresDB/QuickOrderProduto.Adapters.PostgresDB.csproj", "QuickOrderProduto.Adapters.PostgresDB/"]
+COPY ["QuickOrderProduto.PostgresDB/QuickOrderProduto.PostgresDB.csproj", "QuickOrderProduto.PostgresDB/"]
 COPY ["QuickOrderProduto.Application/QuickOrderProduto.Application.csproj", "QuickOrderProduto.Application/"]
 COPY ["QuickOrderProduto.Domain/QuickOrderProduto.Domain.csproj", "QuickOrderProduto.Domain/"]
 COPY ["QuickOrderProduto.Infra.MQ/QuickOrderProduto.Domain.csproj", "QuickOrderProduto.Infra.MQ/"]
