@@ -1,5 +1,8 @@
-﻿namespace QuickOrderProduto.Api.Configuration
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace QuickOrderProduto.Api.Configuration
 {
+    [ExcludeFromCodeCoverage]
     public static class ServiceCorsConfig
     {
         public static void AddCorsConfiguration(this IServiceCollection service, string myAllowSpecificOrigins)

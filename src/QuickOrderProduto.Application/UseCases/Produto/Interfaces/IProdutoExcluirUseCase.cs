@@ -1,5 +1,4 @@
 ﻿using QuickOrderProduto.Application.Dtos;
-using QuickOrderProduto.Core.Application.UseCases;
 
 namespace QuickOrderProduto.Application.UseCases.Produto.Interfaces
 {

@@ -75,8 +75,8 @@ app.MapHealthChecks("/api/health");
 
 app.UseReDoc(c =>
 {
-c.DocumentTitle = "QuickOrder API Documentation";
-c.SpecUrl = "/swagger/v1/swagger.json";
+    c.DocumentTitle = "QuickOrder API Documentation";
+    c.SpecUrl = "/swagger/v1/swagger.json";
 });
 
 //Register Produtos Endpoints

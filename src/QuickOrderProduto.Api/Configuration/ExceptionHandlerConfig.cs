@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 
 namespace QuickOrderProduto.Api.Configuration
 {
+    [ExcludeFromCodeCoverage]
     public static class ExceptionHandlerConfig
     {
         public static void RegisterExceptionHandler(this WebApplication app)

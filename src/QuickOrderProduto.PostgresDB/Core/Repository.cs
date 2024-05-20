@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QuickOrderProduto.Domain;
 using QuickOrderProduto.Domain.Entities;
-using QuickOrderProduto.PostgresDB.Core;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq.Expressions;
 
 namespace QuickOrderProduto.PostgresDB.Core
 {
+    [ExcludeFromCodeCoverage]
     public abstract class Repository<T> : IRepository<T>
    where T : EntityBase
     {

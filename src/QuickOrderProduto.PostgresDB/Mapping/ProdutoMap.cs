@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using QuickOrderProduto.PostgresDB.Core;
 using QuickOrderProduto.Domain.Entities;
+using QuickOrderProduto.PostgresDB.Core;
+using System.Diagnostics.CodeAnalysis;
 
 namespace QuickOrderProduto.PostgresDB.Mapping
 {
+    [ExcludeFromCodeCoverage]
     public class ProdutoMap : IEntityMap<Produto>
     {
         public void Configure(EntityTypeBuilder<Produto> builder)

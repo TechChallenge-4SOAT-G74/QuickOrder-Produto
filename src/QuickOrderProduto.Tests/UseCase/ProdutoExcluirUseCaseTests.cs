@@ -1,6 +1,5 @@
 ﻿using Moq;
 using QuickOrder.Core.Application.UseCases.Produto;
-using QuickOrderProduto.Application.Dtos;
 using QuickOrderProduto.Domain;
 using QuickOrderProduto.Domain.Entities;
 
@@ -23,7 +22,7 @@ namespace QuickOrderProduto.Tests.UseCase
             // Arrange
             int produtoId = 1;
             var produto = new Produto("Produto Teste", 1, 10, "Descrição Teste");
- 
+
             _produtoRepositoryMock.Setup(repo => repo.GetFirst(produtoId))
                                   .ReturnsAsync(produto);
             _produtoRepositoryMock.Setup(repo => repo.Delete(produtoId))

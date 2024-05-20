@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
 
 namespace QuickOrderProduto.Domain.Enums
 {
@@ -16,6 +17,7 @@ namespace QuickOrderProduto.Domain.Enums
         Complemento = 5
     }
 
+    [ExcludeFromCodeCoverage]
     public static class ETipoItemExtensions
     {
         public static string ToDescriptionString(this ETipoItem val)

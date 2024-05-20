@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
 namespace QuickOrderProduto.PostgresDB.Core
 {
+    [ExcludeFromCodeCoverage]
     public class ApplicationContext : DbContext
     {
         public ApplicationContext()

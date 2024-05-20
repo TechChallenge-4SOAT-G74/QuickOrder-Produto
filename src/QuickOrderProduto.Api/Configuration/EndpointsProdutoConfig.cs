@@ -2,9 +2,11 @@
 using QuickOrder.Core.Application.UseCases.Produto.Interfaces;
 using QuickOrderProduto.Application.Dtos;
 using QuickOrderProduto.Application.UseCases.Produto.Interfaces;
+using System.Diagnostics.CodeAnalysis;
 
 namespace QuickOrderProduto.Api.Configuration
 {
+    [ExcludeFromCodeCoverage]
     public static class EndpointsProdutoConfig
     {
         public static void RegisterProdutoEndpoints(this WebApplication app)

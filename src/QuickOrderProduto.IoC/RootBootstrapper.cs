@@ -2,14 +2,15 @@
 using QuickOrder.Core.Application.UseCases.Produto;
 using QuickOrder.Core.Application.UseCases.Produto.Interfaces;
 using QuickOrderProduto.Application.UseCases.Produto.Interfaces;
-using QuickOrderProduto.Core.Application.UseCases;
 using QuickOrderProduto.Core.Application.UseCases.Produto;
 using QuickOrderProduto.Domain;
 using QuickOrderProduto.Infra.MQ;
 using QuickOrderProduto.PostgresDB.Repositories;
+using System.Diagnostics.CodeAnalysis;
 
 namespace QuickOrderProduto.Core.IoC
 {
+    [ExcludeFromCodeCoverage]
     public static class RootBootstrapper
     {
         public static void BootstrapperRegisterServices(this IServiceCollection services)
