@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\QuickOrderProduto.Application\QuickOrderProduto.Application.csproj" />
+    <ProjectReference Include="..\QuickOrderProduto.Infra.MQ\QuickOrderProduto.Infra.MQ.csproj" />
     <ProjectReference Include="..\QuickOrderProduto.PostgresDB\QuickOrderProduto.PostgresDB.csproj" />
   </ItemGroup>
 

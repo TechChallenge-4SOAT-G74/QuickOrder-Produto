@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QuickOrderProduto.Domain;
 using QuickOrderProduto.Domain.Entities;
+using QuickOrderProduto.PostgresDB.Core;
 using System.Linq.Expressions;
 
 namespace QuickOrder.PostgresDB.Core

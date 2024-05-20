@@ -18,7 +18,6 @@ namespace QuickOrderProduto.Core.IoC
             var assemblyTypes = typeof(RootBootstrapper).Assembly.GetNoAbstractTypes();
 
             services.AddSingleton(typeof(IRabbitMqPub<>), typeof(RabbitMqPub<>));
-            services.AddSingleton<IProcessaEvento, ProcessaEvento>();
 
 
             services.AddImplementations(ServiceLifetime.Scoped, typeof(IBaseRepository), assemblyTypes);

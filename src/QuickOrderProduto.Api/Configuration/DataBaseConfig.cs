@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using QuickOrder.PostgresDB.Core;
 using QuickOrderProduto.Domain.Entities;
+using QuickOrderProduto.PostgresDB.Core;
 
 namespace QuickOrderProduto.Api.Configuration
 {
@@ -34,6 +34,15 @@ namespace QuickOrderProduto.Api.Configuration
                 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             });
         }
+
+        //public static void MigratePostGresConfiguration(this WebApplication app)
+        //{
+        //    using (var scope = app.Services.CreateScope())
+        //    {
+        //        var db = scope.ServiceProvider.GetRequiredService<ApplicationContext>();
+        //        db.Database.Migrate();
+        //    }
+        //}
 
         public static void MigratePostGresConfiguration(this IServiceProvider service)
         {
