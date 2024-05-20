@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using QuickOrder.PostgresDB.Core;
+using QuickOrderProduto.PostgresDB.Core;
 using QuickOrderProduto.Domain.Entities;
 
 namespace QuickOrderProduto.PostgresDB.Mapping

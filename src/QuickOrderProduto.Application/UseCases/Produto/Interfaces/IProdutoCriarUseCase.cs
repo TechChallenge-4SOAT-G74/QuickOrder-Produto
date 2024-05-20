@@ -3,7 +3,7 @@ using QuickOrderProduto.Core.Application.UseCases;
 
 namespace QuickOrder.Core.Application.UseCases.Produto.Interfaces
 {
-    public interface IProdutoCriarUseCase : IBaseUseCase
+    public interface IProdutoCriarUseCase
     {
         Task<ServiceResult> Execute(ProdutoDto produto);
     }

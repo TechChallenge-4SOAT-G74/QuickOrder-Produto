@@ -1,4 +1,4 @@
-﻿using QuickOrder.PostgresDB.Core;
+﻿using QuickOrderProduto.PostgresDB.Core;
 using QuickOrderProduto.Domain;
 using QuickOrderProduto.Domain.Entities;
 

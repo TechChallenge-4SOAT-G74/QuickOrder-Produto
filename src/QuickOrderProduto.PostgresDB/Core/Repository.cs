@@ -3,7 +3,7 @@ using QuickOrderProduto.Domain;
 using QuickOrderProduto.Domain.Entities;
 using System.Linq.Expressions;
 
-namespace QuickOrder.PostgresDB.Core
+namespace QuickOrderProduto.PostgresDB.Core
 {
     public abstract class Repository<T> : IRepository<T>
    where T : EntityBase

@@ -4,10 +4,8 @@
 
 namespace QuickOrderProduto.PostgresDB.Migrations
 {
-    /// <inheritdoc />
-    public partial class dadosiniciais : Migration
+    public partial class inserts : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.Sql(@"
@@ -25,8 +23,10 @@ namespace QuickOrderProduto.PostgresDB.Migrations
                 ('Pão de Queijo', 1, 6, 'Impossível de resistir. Pão de queijo quentinho e macio. Quem já provou sabe que não tem igual.'),
                 ('Iced Mix Café', 3, 8, 'O sabor é tão refrescante quanto delicioso. Feito com o saboroso espresso do McCafé em uma combinação com a nossa bebida láctea sabor baunilha batido com pedras de gelo, finalizado chocolate em pó polvilhado.');
 
-                ");
+                "
+               );
         }
+
 
     }
 }

@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using QuickOrder.Core.Application.UseCases.Produto;
 using QuickOrder.Core.Application.UseCases.Produto.Interfaces;
-using QuickOrderProduto.Application.Events;
 using QuickOrderProduto.Application.UseCases.Produto.Interfaces;
 using QuickOrderProduto.Core.Application.UseCases;
 using QuickOrderProduto.Core.Application.UseCases.Produto;
@@ -18,12 +17,9 @@ namespace QuickOrderProduto.Core.IoC
             var assemblyTypes = typeof(RootBootstrapper).Assembly.GetNoAbstractTypes();
 
             services.AddSingleton(typeof(IRabbitMqPub<>), typeof(RabbitMqPub<>));
-            services.AddSingleton<IProcessaEvento, ProcessaEvento>();
-
 
             services.AddImplementations(ServiceLifetime.Scoped, typeof(IBaseRepository), assemblyTypes);
 
-            services.AddImplementations(ServiceLifetime.Scoped, typeof(IBaseUseCase), assemblyTypes);
 
             //Repositories postgresDB
 
