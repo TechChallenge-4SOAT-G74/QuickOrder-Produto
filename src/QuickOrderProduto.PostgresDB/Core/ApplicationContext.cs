@@ -5,6 +5,11 @@ namespace QuickOrderProduto.PostgresDB.Core
 {
     public class ApplicationContext : DbContext
     {
+        public ApplicationContext()
+        {
+
+        }
+
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options)
         {

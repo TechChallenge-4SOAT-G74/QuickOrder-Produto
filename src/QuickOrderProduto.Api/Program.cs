@@ -12,6 +12,10 @@ builder.Services.Configure<RabbitMqSettings>(
     builder.Configuration.GetSection("RabbitMqSettings")
 );
 
+builder.Services.Configure<RabbitMqSettings>(
+    builder.Configuration.GetSection("RabbitMqSettings")
+);
+
 //Configure Postgres Database
 builder.Services.Configure<DatabaseSettings>(
     builder.Configuration.GetSection("DatabaseSettings")

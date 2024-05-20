@@ -24,4 +24,8 @@
     <ProjectReference Include="..\QuickOrderProduto.Domain\QuickOrderProduto.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>
