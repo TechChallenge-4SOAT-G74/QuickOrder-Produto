@@ -1,5 +1,8 @@
-﻿namespace QuickOrderProduto.Infra.MQ
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace QuickOrderProduto.Infra.MQ
 {
+    [ExcludeFromCodeCoverage]
     public class RabbitMqSettings
     {
         public string Host { get; set; } = null!;

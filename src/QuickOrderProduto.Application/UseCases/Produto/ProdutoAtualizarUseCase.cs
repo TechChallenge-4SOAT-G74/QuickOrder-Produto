@@ -49,7 +49,5 @@ namespace QuickOrderProduto.Core.Application.UseCases.Produto
             catch (Exception ex) { result.AddError(ex.Message); }
             return result;
         }
-
-
     }
 }
