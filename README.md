@@ -47,7 +47,7 @@ Passo a passo:
 <br />
 
 * Caso haja algum **pod, svc ou deployment** etc listado no passo anterior, limpar o cluster através do comando `kubectl delete all --all` e `kubectl delete pvc --all`
-* Baixe o projeto QuickOrder-Infra-Kubernetes do repositório [![image](https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Infra-MicroServices-Kubernetes)](https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Infra-MicroServices-Kubernetes)
+* Baixe o projeto QuickOrder-Infra-Kubernetes do repositório https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Infra-MicroServices-Kubernetes.git
 * Verifique os sprits do repositório digitando `ls` 
 
 <br />
