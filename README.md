@@ -111,6 +111,10 @@ Passo a passo:
 ![image](https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Produto/assets/19378661/5c9c3b53-6a22-4996-a433-34e20cbd9376)
 
 
+<br />
 
+* Abrir o browser e digitar o seguinte endereço **http://localhost:30000/swagger/**. O swagger da Api deverá ser exibido, indicando que a subida da aplicação ocorreu com sucesso:
 
+<br />
 
+![image](https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Produto/assets/19378661/d3616035-b416-49ea-92ae-3360795ae189)
