@@ -30,6 +30,7 @@ namespace QuickOrderProduto.Infra.MQ
 
         public void Publicar(T obj, string routingKey, string queue)
         {
+            _channel.ExchangeDeclare(exchange: "Produto", type: ExchangeType.Fanout);
             _channel.QueueDeclare(queue: queue,
                      durable: false,
                      exclusive: false,
