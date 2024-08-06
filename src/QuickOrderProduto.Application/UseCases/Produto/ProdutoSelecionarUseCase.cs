@@ -37,10 +37,10 @@ namespace QuickOrderProduto.Core.Application.UseCases.Produto
                         IdProduto = produto.Id,
                         IdCliente = idCliente == 0 ? new Random().Next(100) : idCliente,
                         NomeProduto = produto.Nome.Nome,
-                        Quantidade = produto.ProdutoItens.Select(x => x.Quantidade).Sum(),
-                        ValorProduto = produto.ProdutoItens.Select(x => x.Quantidade).Sum(),
+                        Quantidade = 1,
+                        ValorProduto = produto.Preco,
                         CategoriaProduto = ECategoriaExtensions.ToDescriptionString((ECategoria)produto.CategoriaId),
-                        ProdutosItens = new List<ProdutoItens> { new ProdutoItens { NomeProdutoItem = produto.Nome.Nome, Quantidade = produto.ProdutoItens.Select(x => x.Quantidade).Sum(), ValorItem = produto.ProdutoItens.Select(x => x.Quantidade).Sum() } }
+                        ProdutosItens = null
                     };
 
                     _rabbitMqPub.Publicar(produtoSelecionadoDto, "Produto", "Produto_Selecionado");
