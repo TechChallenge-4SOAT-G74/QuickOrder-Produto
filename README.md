@@ -17,6 +17,13 @@ fsouza.thadeu@gmail.com
 
 <br />
 
+## Microserviço - Produto
+Microserviço de produto é usuado como catálogo onde o cliente pode visualizar a listas de produtos com a descrição e valor.
+Ao selecionar o produto, o item selecionado é enviado para o microserviço Pedido por mensageria.
+
+
+<br />
+
 ## Pré-Requisitos
 
 Antes de executar este projeto, os seguintes itens deverão estar instalados no computador:
@@ -27,7 +34,9 @@ Antes de executar este projeto, os seguintes itens deverão estar instalados no 
 
 <br />
 
-Passo a passo:
+Passo a passo - Instalação:
+
+* Obter os scripts de instalação do kubernetes no repositório https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Infra-MicroServices-Kubernetes
 
 * Abrir alguma interface de linha de comando como, por exemplo, o **PowerShell** e digitar o comando `kubectl config get-contexts`. O resultado deverá ser conforme abaixo, com o contexto do **docker-desktop** selecionado:
   
@@ -83,23 +92,6 @@ Passo a passo:
 
 ![image](https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Produto/assets/19378661/9966598c-45a5-45a7-8c4e-2c576c8a327e)
 
-
-<br />
-
-* Aplicar os **scripts yml** dos **Services** através do comando `kubectl apply -f "https://github.com/rabbitmq/cluster-operator/releases/latest/download/cluster-operator.yml"`:
-
-<br />
-
-![image](https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Produto/assets/19378661/948fb896-d6b6-45ac-838d-6fe9e239bca0)
-
-
-<br />
-
-* Aplicar os **scripts yml** dos **Services** através do comando `kubectl apply -f .\04-RabbitMQ\`:
-
-<br />
-
-![image](https://github.com/TechChallenge-4SOAT-G74/QuickOrder-Produto/assets/19378661/fe46e4e2-fb3d-4117-bcc4-80a23904f181)
 
 
 <br />

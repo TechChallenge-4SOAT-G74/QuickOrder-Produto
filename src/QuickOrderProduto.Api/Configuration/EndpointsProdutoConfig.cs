@@ -38,7 +38,7 @@ namespace QuickOrderProduto.Api.Configuration
                 return Results.Ok(await produtoExcluirUseCase.Execute(id));
             });
 
-            app.MapGet("/SelecionarProduto", async ([FromServices] IProdutoSelecionarUseCase produtoSelecionarUseCase, int idProduto, int idCliente) =>
+            app.MapPost("/SelecionarProduto", async ([FromServices] IProdutoSelecionarUseCase produtoSelecionarUseCase, int idProduto, int idCliente) =>
             {
                 return Results.Ok(await produtoSelecionarUseCase.Execute(idProduto, idCliente));
             });

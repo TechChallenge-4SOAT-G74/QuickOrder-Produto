@@ -1,6 +1,7 @@
 ﻿using QuickOrderProduto.Application.Dtos;
 using QuickOrderProduto.Application.UseCases.Produto.Interfaces;
 using QuickOrderProduto.Domain;
+using QuickOrderProduto.Domain.Enums;
 using QuickOrderProduto.Infra.MQ;
 
 namespace QuickOrderProduto.Core.Application.UseCases.Produto
@@ -35,7 +36,11 @@ namespace QuickOrderProduto.Core.Application.UseCases.Produto
                     {
                         IdProduto = produto.Id,
                         IdCliente = idCliente == 0 ? new Random().Next(100) : idCliente,
-                        DescricaoProduto = produto.Descricao
+                        NomeProduto = produto.Nome.Nome,
+                        Quantidade = 1,
+                        ValorProduto = produto.Preco,
+                        CategoriaProduto = ECategoriaExtensions.ToDescriptionString((ECategoria)produto.CategoriaId),
+                        ProdutosItens = null
                     };
 
                     _rabbitMqPub.Publicar(produtoSelecionadoDto, "Produto", "Produto_Selecionado");
